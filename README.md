@@ -4,4 +4,4 @@ Um projeto similar ao instagram faltando aindda alguns complementos no qual eu i
 
 Segue uma imagem do mesmo abaixo:
 
-![image](https://github.com/guihp/instagram-ui/assets/119879832/5f1e624b-0370-426a-9d1d-35f5d06ac137)
+![image](https://github.com/guihp/instagram-ui/assets/119879832/5c940f4a-ce06-4768-93c6-cfaf89ca733d)
