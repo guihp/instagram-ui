@@ -21,66 +21,79 @@ const DATA = [
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto,
+        text: "Izadora"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto2,
+        text: "Maria"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto3,
+        text: "Pedro"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto4,
+        text: "Rejane"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto2,
+        text: "Maria"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto3,
+        text: "Pedro"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto,
+        text: "Izadora"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto2,
+        text: "Maria"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto3,
+        text: "Pedro"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto,
+        text: "Izadora"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto2,
+        text: "Maria"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
         photoURL: foto,
+        text: "Izadora"
     },
 
     {
         id: Math.random().toString(36).substring(2, 27),
-        photoURL: foto3,
+        photoURL: foto4,
+        text: "Rejane"
     },
 
 
@@ -107,6 +120,7 @@ export function Home() {
                 renderItem={(item) => (
                     <View style={styles.storiesCard} key={item.item.id}>
                         <Image style={styles.storiesCardImage} source={item.item.photoURL} />
+                        <Text style={{color: "#fff", justifyContent: "center", alignItems: "center", marginTop: 5, paddingHorizontal: 10, }}>{item.item.text}</Text>
                     </View>
                 )}
             />
